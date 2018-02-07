@@ -1,0 +1,124 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3A6FB9;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #3A6FB9;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: rgb(80, 80, 80);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #D66B7D;
+  text-decoration: none;
+}
+
+tr {
+  height: 350px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+ul {
+  padding-left: none;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+body {
+  background-color: #DADADA;
+  background-image: url("http://guildfordskislope.co.uk/wp-content/uploads/2015/11/banner-carousel-D1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+   .card {
+    width: 660px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+   .card {
+    width: 480px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 280px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin:30px auto;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1)
+}
+
+.movie-title  {
+  color: #3A6FB9;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+.movie-title:hover {
+  color: #D66B7D;
+}
+
+
+#profile-pic {
+  height: 250px;
+  border-radius: 150px;
+
+}
+
+.movie-cover {
+  height: 300px;
+}
+
