@@ -65,6 +65,10 @@ body {
    .card {
     width: 660px;
   }
+
+  .video {
+    width: 100%;
+  }
 }
 
 @media (max-width: 720px) {
@@ -74,6 +78,9 @@ body {
   }
    .card {
     width: 480px;
+  }
+   .video {
+    width: 100%;
   }
 }
 
@@ -85,6 +92,16 @@ body {
   .card {
     width: 280px;
   }
+   .video {
+    width: 100%;
+  }
+  #banner-container #vid-mask {
+    height: auto;
+  }
+}
+
+.video {
+  width: 100%;
 }
 
 .text-center {
@@ -113,12 +130,26 @@ body {
 
 
 #profile-pic {
-  height: 250px;
+  width: 30%;
   border-radius: 150px;
-
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 .movie-cover {
   height: 300px;
+}
+
+#vid-mask {
+  overflow-y: hidden;
+  height: 60vh;
+  border-radius: 4px;
+}
+
+
+
+#banner-container {
+  position: relative;
 }
 
