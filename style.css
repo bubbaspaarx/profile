@@ -131,7 +131,7 @@ body {
 
 #profile-pic {
   width: 30%;
-  border-radius: 150px;
+  border-radius: 100%;
   position: absolute;
   right: 10px;
   top: 10px;
